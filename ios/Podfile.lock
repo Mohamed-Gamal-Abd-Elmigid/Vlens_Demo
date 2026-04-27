@@ -1,0 +1,225 @@
+PODS:
+  - audioplayers_darwin (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_image_compress_common (1.0.0):
+    - Flutter
+    - Mantle
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - geolocator_apple (1.2.0):
+    - Flutter
+    - FlutterMacOS
+  - google_mlkit_commons (0.11.1):
+    - Flutter
+    - MLKitVision (~> 10.0.0)
+  - google_mlkit_face_detection (0.13.2):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/FaceDetection (~> 9.0.0)
+  - google_mlkit_object_detection (0.15.1):
+    - Flutter
+    - google_mlkit_commons
+    - GoogleMLKit/ObjectDetection (~> 9.0.0)
+    - GoogleMLKit/ObjectDetectionCustom (~> 9.0.0)
+  - GoogleDataTransport (10.1.0):
+    - nanopb (~> 3.30910.0)
+    - PromisesObjC (~> 2.4)
+  - GoogleMLKit/FaceDetection (9.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitFaceDetection (~> 8.0.0)
+  - GoogleMLKit/MLKitCore (9.0.0):
+    - MLKitCommon (~> 14.0.0)
+  - GoogleMLKit/ObjectDetection (9.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitObjectDetection (~> 8.0.0)
+  - GoogleMLKit/ObjectDetectionCustom (9.0.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitObjectDetectionCustom (~> 8.0.0)
+  - GoogleToolboxForMac/Defines (4.2.1)
+  - GoogleToolboxForMac/Logger (4.2.1):
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - "GoogleToolboxForMac/NSData+zlib (4.2.1)":
+    - GoogleToolboxForMac/Defines (= 4.2.1)
+  - GoogleUtilities/Environment (8.1.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (8.1.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (8.1.0)
+  - GoogleUtilities/UserDefaults (8.1.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GTMSessionFetcher/Core (3.5.0)
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
+    - libwebp/webp
+  - libwebp/mux (1.5.0):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
+    - libwebp/sharpyuv
+  - Mantle (2.2.0):
+    - Mantle/extobjc (= 2.2.0)
+  - Mantle/extobjc (2.2.0)
+  - MLImage (1.0.0-beta8)
+  - MLKitCommon (14.0.0):
+    - GoogleDataTransport (~> 10.0)
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GoogleUtilities/Logger (~> 8.0)
+    - GoogleUtilities/UserDefaults (~> 8.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+  - MLKitFaceDetection (8.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitVision (~> 10.0)
+  - MLKitImageLabelingCommon (10.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitVision (~> 10.0)
+  - MLKitObjectDetection (8.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitObjectDetectionCommon (~> 10.0)
+    - MLKitVision (~> 10.0)
+    - MLKitVisionKit (~> 11.0)
+  - MLKitObjectDetectionCommon (10.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitVision (~> 10.0)
+  - MLKitObjectDetectionCustom (8.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitObjectDetectionCommon (~> 10.0)
+    - MLKitVision (~> 10.0)
+    - MLKitVisionKit (~> 11.0)
+  - MLKitVision (10.0.0):
+    - GoogleToolboxForMac/Logger (< 5.0, >= 4.2.1)
+    - "GoogleToolboxForMac/NSData+zlib (< 5.0, >= 4.2.1)"
+    - GTMSessionFetcher/Core (< 4.0, >= 3.3.2)
+    - MLImage (= 1.0.0-beta8)
+    - MLKitCommon (~> 14.0)
+  - MLKitVisionKit (11.0.0):
+    - MLKitCommon (~> 14.0)
+    - MLKitImageLabelingCommon (~> 10.0)
+    - MLKitObjectDetectionCommon (~> 10.0)
+    - MLKitVision (~> 10.0)
+  - nanopb (3.30910.0):
+    - nanopb/decode (= 3.30910.0)
+    - nanopb/encode (= 3.30910.0)
+  - nanopb/decode (3.30910.0)
+  - nanopb/encode (3.30910.0)
+  - PromisesObjC (2.4.0)
+  - SDWebImage (5.21.7):
+    - SDWebImage/Core (= 5.21.7)
+  - SDWebImage/Core (5.21.7)
+  - SDWebImageWebPCoder (0.15.0):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - smart_auth (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - audioplayers_darwin (from `.symlinks/plugins/audioplayers_darwin/darwin`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_image_compress_common (from `.symlinks/plugins/flutter_image_compress_common/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/darwin`)
+  - google_mlkit_commons (from `.symlinks/plugins/google_mlkit_commons/ios`)
+  - google_mlkit_face_detection (from `.symlinks/plugins/google_mlkit_face_detection/ios`)
+  - google_mlkit_object_detection (from `.symlinks/plugins/google_mlkit_object_detection/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - smart_auth (from `.symlinks/plugins/smart_auth/ios`)
+
+SPEC REPOS:
+  trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - libwebp
+    - Mantle
+    - MLImage
+    - MLKitCommon
+    - MLKitFaceDetection
+    - MLKitImageLabelingCommon
+    - MLKitObjectDetection
+    - MLKitObjectDetectionCommon
+    - MLKitObjectDetectionCustom
+    - MLKitVision
+    - MLKitVisionKit
+    - nanopb
+    - PromisesObjC
+    - SDWebImage
+    - SDWebImageWebPCoder
+
+EXTERNAL SOURCES:
+  audioplayers_darwin:
+    :path: ".symlinks/plugins/audioplayers_darwin/darwin"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_image_compress_common:
+    :path: ".symlinks/plugins/flutter_image_compress_common/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/darwin"
+  google_mlkit_commons:
+    :path: ".symlinks/plugins/google_mlkit_commons/ios"
+  google_mlkit_face_detection:
+    :path: ".symlinks/plugins/google_mlkit_face_detection/ios"
+  google_mlkit_object_detection:
+    :path: ".symlinks/plugins/google_mlkit_object_detection/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  smart_auth:
+    :path: ".symlinks/plugins/smart_auth/ios"
+
+SPEC CHECKSUMS:
+  audioplayers_darwin: f15e209a3e856d1a7edcf98dc029f484fead2242
+  camera_avfoundation: 281867ff09f1da66f031a184ecfbc6f2e625c9f5
+  device_info_plus: 97af1d7e84681a90d0693e63169a5d50e0839a0d
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_image_compress_common: ec1d45c362c9d30a3f6a0426c297f47c52007e3e
+  geolocator_apple: 66b711889fd333205763b83c9dcf0a57a28c7afd
+  google_mlkit_commons: 1e6ef6605d7281f35baf2b355e6049b9984fd624
+  google_mlkit_face_detection: ceddb8d65f594b9ff8379efc16ab2c4efa801349
+  google_mlkit_object_detection: e41786b13b2e82587cbaeca18758135fe1c6d813
+  GoogleDataTransport: aae35b7ea0c09004c3797d53c8c41f66f219d6a7
+  GoogleMLKit: b1eee21a41c57704fe72483b15c85cb2c0cd7444
+  GoogleToolboxForMac: d1a2cbf009c453f4d6ded37c105e2f67a32206d8
+  GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
+  GTMSessionFetcher: 5aea5ba6bd522a239e236100971f10cb71b96ab6
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
+  Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
+  MLImage: 0de5c6c2bf9e93b80ef752e2797f0836f03b58c0
+  MLKitCommon: 47d47b50a031d00db62f1b0efe5a1d8b09a3b2e6
+  MLKitFaceDetection: 32549f1e70e6e7731261bf9cea2b74095e2531cb
+  MLKitImageLabelingCommon: 616b0c69b3e302720cfb65903da50dc2e697b915
+  MLKitObjectDetection: c6346f1e6fd945d9a1a993104184e886bda6e0f6
+  MLKitObjectDetectionCommon: 0639341c7cbb44327dac9a23c473d2484d3169dd
+  MLKitObjectDetectionCustom: a210309c7d2a0c08b0ce7b9ef3e8d36027c96978
+  MLKitVision: 39a5a812db83c4a0794445088e567f3631c11961
+  MLKitVisionKit: 316cd349468797ef4e7fd785bf658ca838984de3
+  nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  SDWebImage: e9fc87c1aab89a8ab1bbd74eba378c6f53be8abf
+  SDWebImageWebPCoder: 0e06e365080397465cc73a7a9b472d8a3bd0f377
+  shared_preferences_foundation: 5086985c1d43c5ba4d5e69a4e8083a389e2909e6
+  smart_auth: 4bedbc118723912d0e45a07e8ab34039c19e04f2
+
+PODFILE CHECKSUM: 695781d6a5e141b03ed61538c98c85970803c25a
+
+COCOAPODS: 1.16.2

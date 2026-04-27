@@ -1,0 +1,55 @@
+PODS:
+  - audioplayers_darwin (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - device_info_plus (0.0.1):
+    - FlutterMacOS
+  - flutter_image_compress_macos (1.0.0):
+    - FlutterMacOS
+  - FlutterMacOS (1.0.0)
+  - geolocator_apple (1.2.0):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - smart_auth (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - audioplayers_darwin (from `Flutter/ephemeral/.symlinks/plugins/audioplayers_darwin/darwin`)
+  - device_info_plus (from `Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos`)
+  - flutter_image_compress_macos (from `Flutter/ephemeral/.symlinks/plugins/flutter_image_compress_macos/macos`)
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - geolocator_apple (from `Flutter/ephemeral/.symlinks/plugins/geolocator_apple/darwin`)
+  - shared_preferences_foundation (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - smart_auth (from `Flutter/ephemeral/.symlinks/plugins/smart_auth/macos`)
+
+EXTERNAL SOURCES:
+  audioplayers_darwin:
+    :path: Flutter/ephemeral/.symlinks/plugins/audioplayers_darwin/darwin
+  device_info_plus:
+    :path: Flutter/ephemeral/.symlinks/plugins/device_info_plus/macos
+  flutter_image_compress_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_image_compress_macos/macos
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  geolocator_apple:
+    :path: Flutter/ephemeral/.symlinks/plugins/geolocator_apple/darwin
+  shared_preferences_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin
+  smart_auth:
+    :path: Flutter/ephemeral/.symlinks/plugins/smart_auth/macos
+
+SPEC CHECKSUMS:
+  audioplayers_darwin: f15e209a3e856d1a7edcf98dc029f484fead2242
+  device_info_plus: ce1b7762849d3ec103d0e0517299f2db7ad60720
+  flutter_image_compress_macos: c26c3c13ea0f28ae6dea4e139b3292e7729f99f1
+  FlutterMacOS: d0db08ddef1a9af05a5ec4b724367152bb0500b1
+  geolocator_apple: 66b711889fd333205763b83c9dcf0a57a28c7afd
+  shared_preferences_foundation: 5086985c1d43c5ba4d5e69a4e8083a389e2909e6
+  smart_auth: b38e3ab4bfe089eacb1e233aca1a2340f96c28e9
+
+PODFILE CHECKSUM: 54d867c82ac51cbd61b565781b9fada492027009
+
+COCOAPODS: 1.16.2
